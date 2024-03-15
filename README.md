@@ -1,16 +1,8 @@
-# invoice
+<p>
+  <imag src="https://github.com/Ponik90/invoice/assets/156168435/dff075df-6ebc-47cf-9b7e-44cdb214b60b" height="600" width="300" ></imag>
+  <imag src="https://github.com/Ponik90/invoice/assets/156168435/f004868c-bc83-4d24-ac72-34ec61db800a" height="600" width="300" ></imag>
+  <imag src="https://github.com/Ponik90/invoice/assets/156168435/af147ed8-e61e-43b2-9a90-b232c9eb6a4d" height="600" width="300" ></imag>
+  <imag src="https://github.com/Ponik90/invoice/assets/156168435/d10340d4-9693-46c2-97e1-be6a97958769" height="600" width="300" ></imag>
+  <imag src="https://github.com/Ponik90/invoice/assets/156168435/6d0e2abf-3704-4992-a5a4-b0b92ef88323" height="600" width="300" ></imag>
+</p>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
