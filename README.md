@@ -34,10 +34,9 @@ Make PDF of Bill
 <br><br>
 
 
-
 <div align="center">
 
-<img src="./assets/icons/logo.png" width="200px" height="200px">
+<img src="https://github.com/Ponik90/invoice/assets/156168435/50d1844d-2bfb-4f9e-a8a0-edaf5f4f6990" width="200px" height="200px">
 
 ### Made with ❤️ in India.
 ---
