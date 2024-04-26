@@ -3,9 +3,6 @@ ReadMe File code
 
 <div align="center">
 
-<img src="./assets/feature_graphic/feature_graphic.png">
-
-
 # **Invoice App**
 Simple Invoice Genretor app made with Flutter in India.
 
