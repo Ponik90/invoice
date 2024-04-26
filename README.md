@@ -6,8 +6,8 @@ ReadMe File code
 <img src="./assets/feature_graphic/feature_graphic.png">
 
 
-# **Age Calculator**
-Simple Age Calculator app made with Flutter in India.
+# **Invoice App**
+Simple Invoice Genretor app made with Flutter in India.
 
 ---
 
@@ -17,12 +17,11 @@ Simple Age Calculator app made with Flutter in India.
 
 ## 🗒 About
 
-This is a simple app made for knowing total passed out time from your birthdate until now in the form of Years, Months and Days. You can also get upcoming or remaining time duration for your next birthday in the form of Months and Days.
-
+This is a simple app made Make Total of Your Product Price & Qty.This App Also Make Pdf of Bill.
 ## ⚙️ Features
 Main features are as follows:
-Passed Time duration until now from birthdate
-Upcoming birthday time calculation
+Calculate Total Price With tax. and discount.
+Make PDF of Bill 
 ## 📲 Screenshots
   <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/dff075df-6ebc-47cf-9b7e-44cdb214b60b" height="600" width="300" >  
   <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/b35805ff-1dd7-4930-b706-bb9fe5758659" height="600" width="300" >  
