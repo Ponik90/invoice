@@ -16,15 +16,8 @@ class _ProductScreenState extends State<ProductScreen> {
   TextEditingController txttax = TextEditingController();
   TextEditingController txtdisc = TextEditingController();
   GlobalKey<FormState> formkey = GlobalKey<FormState>();
-
-  double total = 0;
-  double price = 0;
-  double qty = 0;
-  double tax = 0;
-  double disc = 0;
-  double? p;
-  double? t;
-  double? d;
+  double? tax;
+  double? disc;
 
   @override
   Widget build(BuildContext context) {
@@ -152,6 +145,7 @@ class _ProductScreenState extends State<ProductScreen> {
                             if (value == null || value.isEmpty) {
                               return "This field is require";
                             }
+                            return null;
                           },
                         ),
                         const SizedBox(
@@ -186,6 +180,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                       if (value == null || value.isEmpty) {
                                         return "This field is require";
                                       }
+                                      return null;
                                     },
                                   ),
                                 ],
@@ -221,6 +216,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                       if (value == null || value.isEmpty) {
                                         return "This field is require";
                                       }
+                                      return null;
                                     },
                                   ),
                                 ],
@@ -260,6 +256,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                       if (value == null || value.isEmpty) {
                                         return "This field is require";
                                       }
+                                      return null;
                                     },
                                   ),
                                 ],
@@ -281,10 +278,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                     ),
                                   ),
                                   TextFormField(
-                                    onChanged:
-                                    (value) {
-                                      disc=double.parse(txtdisc.text);
-                                    },
+                                    onChanged: (value) {},
                                     keyboardType: TextInputType.number,
                                     decoration: const InputDecoration(
                                       hintText: "Discount",
@@ -301,33 +295,6 @@ class _ProductScreenState extends State<ProductScreen> {
                           ],
                         ),
                         const SizedBox(
-                          height: 20,
-                        ),
-                        Row(
-                          children: [
-                            const Text(
-                              "Total Price : ",
-                              style:
-                                  TextStyle(color: Colors.grey, fontSize: 18),
-                            ),
-                            const Spacer(),
-                            InkWell(onTap: () {
-                                setState(() {
-                                  total;
-                                });
-                              },
-                              child: Text(
-                                "${total}",
-                                style: const TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(
                           height: 30,
                         ),
                       ],
@@ -335,26 +302,28 @@ class _ProductScreenState extends State<ProductScreen> {
                     Center(
                       child: InkWell(
                         onTap: () {
+                          tax = ((int.parse(txtprice.text) *
+                                      int.parse(txtqty.text)) *
+                                  int.parse(txttax.text)) /
+                              100;
+                          disc = (((int.parse(txtprice.text) *
+                                          int.parse(txtqty.text)) +
+                              tax!) *
+                                  int.parse(txtdisc.text)) /
+                              100;
                           FocusManager.instance.primaryFocus?.unfocus();
                           if (formkey.currentState!.validate()) {
                             Map info = {
                               'product': txtproduct.text,
                               'price': txtprice.text,
                               'qty': txtqty.text,
-                              'total':total.toDouble(),
+                              'total':
+                                  "${((int.parse(txtprice.text) * int.parse(txtqty.text)) + tax!) - disc!} ",
                             };
+
+
                             g1.l1.add(info);
 
-                            price = double.parse(txtprice.text);
-                            qty=double.parse(txtqty.text);
-                            tax=double.parse(txttax.text);
-
-                            p=price*qty;
-                            t=(p!*tax)/100;
-                            p=p!+t!;
-
-                            d=(p!*disc)/100;
-                            total=p!-d!;
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(
                                 content: Text("Saves"),

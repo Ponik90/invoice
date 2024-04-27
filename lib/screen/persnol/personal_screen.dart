@@ -86,7 +86,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
                                       )
                                     : CircleAvatar(
                                         backgroundColor: Colors.black26,
-                                        maxRadius: 30,
+                                        maxRadius: 50,
                                         backgroundImage:
                                             FileImage(File("${path}")),
                                       ),
@@ -255,6 +255,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
                                 g1.add = txtadd.text;
 
                                 formkey.currentState!.reset();
+                                Navigator.pop(context);
 
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   const SnackBar(
