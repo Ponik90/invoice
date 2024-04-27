@@ -19,11 +19,12 @@ Main features are as follows:
 Calculate Total Price With tax. and discount.
 Make PDF of Bill 
 ## 📲 Screenshots
-  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/dff075df-6ebc-47cf-9b7e-44cdb214b60b" height="600" width="300" >  
-  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/b35805ff-1dd7-4930-b706-bb9fe5758659" height="600" width="300" >  
-  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/9964f7d8-c5a7-40b5-beac-810a73ff937c" height="600" width="300" >  
-  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/6bcab27b-15fe-4769-8a26-546cb1308522" height="600" width="300" >  
-  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/ba7528ea-7351-4b3a-a52f-39b9535263a5" height="600" width="300" >  
+
+  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/dfd6524d-cf71-4f03-bb31-35367683d557" height="600" width="300" >  
+  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/48c973a5-1d68-4434-b166-3bf4f45c0cbe" height="600" width="300" >  
+  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/071cb3a0-6123-4d93-95ce-5920ac8c3095" height="600" width="300" >  
+  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/5a282bb1-1e7a-4438-a162-14068b3bb429" height="600" width="300" >  
+  <img align="left" src="https://github.com/Ponik90/invoice/assets/156168435/b7c8613a-546c-4af1-9bf6-b7c3d602dcb2" height="600" width="300" >  
 
 
 
@@ -32,7 +33,11 @@ Make PDF of Bill
 
 <div align="center">
 
-<img src="https://github.com/Ponik90/invoice/assets/156168435/50d1844d-2bfb-4f9e-a8a0-edaf5f4f6990" width="200px" height="200px">
+
+
+https://github.com/Ponik90/invoice/assets/156168435/c24d9c2e-cfbe-41f4-a6c1-ad67f836b65d
+
+
 
 ### Made with ❤️ in India.
 ---
